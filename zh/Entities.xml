@@ -22,19 +22,19 @@
             <description />
         </FlightAttendant>
         <FoodWorker>
-            <name>食品工人</name>
-            <description>在零售区内接受和准备订单。</description>
+            <name>餐饮员工</name>
+            <description>在餐饮服务区内接受点餐并准备食物。</description>
         </FoodWorker>
         <Foreman>
-            <name>领班</name>
-            <description>建筑领班 - 让您研究与施工相关的升级和能力，如交叉跑道等。</description>
+            <name>工头</name>
+            <description>工头 - 让您研究与施工相关的升级和能力，如交叉跑道等。</description>
         </Foreman>
         <Janitor>
             <name>清洁工</name>
-            <description>清理机场各处的垃圾，安排收拾垃圾，避免关门。</description>
+            <description>清理机场地面的污物，收集垃圾桶的垃圾，以避免机场关门。</description>
         </Janitor>
         <Laborer>
-            <name>劳动者</name>
+            <name>工人</name>
             <description />
         </Laborer>
         <Passenger>
@@ -46,19 +46,19 @@
             <description />
         </Pilot>
         <RampAgent>
-            <name>停机坪代理人</name>
-            <description>飞机卡住了吗？  停机坪代理人来帮您！  只需一笔很小的一次性费用，他们就能帮您把地面上所有的飞机“解除停滞”。  他们的工作完成后就会走。   也被称为“黄金拖车杆奖”。</description>
+            <name>停机坪工人</name>
+            <description>飞机卡住了吗？  停机坪代理人来帮您！  只需一笔很小的一次性费用，他们就能帮您把地面上所有的飞机“解除停滞”。  他们的工作完成后就会离开。   也被称为“黄金拖车杆奖”。</description>
         </RampAgent>
         <Security>
             <name>安检</name>
-            <description>当行李和乘客穿过机场时检查他们。</description>
+            <description>当行李和乘客进入机场时检查他们。</description>
         </Security>
         <Staff>
             <name>员工</name>
-            <description>处理客户服务职位，包括运营台。</description>
+            <description>处理与旅客相关的服务工作，包括运营台。</description>
         </Staff>
         <VendorWorker>
-            <name>商贩工人</name>
+            <name>摊位售货员</name>
             <description />
         </VendorWorker>
         <Workman>
@@ -70,7 +70,7 @@
             <description />
         </BaggageCar>
         <BaggageCarTest>
-            <name>行李车测试</name>
+            <name>行李车(测试)</name>
             <description />
         </BaggageCarTest>
         <DeliveryTruck>
@@ -78,11 +78,11 @@
             <description />
         </DeliveryTruck>
         <FuelDeliveryTruck>
-            <name>燃油运输卡车</name>
+            <name>燃油运输车</name>
             <description />
         </FuelDeliveryTruck>
         <FuelTruck>
-            <name>燃油箱</name>
+            <name>燃油卡车</name>
             <description />
         </FuelTruck>
         <GarbageTruck>
@@ -106,7 +106,7 @@
             <description />
         </PassengerVehicle>
         <SupplyTruck>
-            <name>供应卡车</name>
+            <name>补给品卡车</name>
             <description />
         </SupplyTruck>
     </Agents>
@@ -123,7 +123,7 @@
         </RunwayApproachLights>
         <RunwayILS>
             <name>跑道 ILS</name>
-            <description>仪表着陆系统让大型飞机采用精准的仪器方法。  最大侧风容忍度从12Kt上升到20 Kt。这意味着因为天气造成的延误更少，与天气相关的事故风险也更低。  它还能帮您吸引‘大型’航空公司。</description>
+            <description>仪表着陆系统让大型飞机采用精准的仪器方法。  最大侧风限制从12Kt上升到20 Kt。这意味着因为天气造成的延误更少，与天气相关的事故风险也更低。  它还能帮您吸引‘大型’航空公司。</description>
         </RunwayILS>
         <RunwayLights>
             <name>跑道灯</name>
@@ -131,7 +131,7 @@
         </RunwayLights>
         <RunwayPAPI>
             <name>跑道 PAPI</name>
-            <description>精密进近航道指示器给飞行员提供视觉指示，告诉他们进近航道角度，带来更高安全。最高侧风容忍度也从12Kt提升到15Kt。</description>
+            <description>精密进近航道指示器给飞行员提供视觉指示，告诉他们进近航道角度，带来更高安全。最高侧风容忍度从12Kt提升到15Kt。</description>
         </RunwayPAPI>
         <Windsock>
             <name>风向袋</name>
@@ -139,7 +139,7 @@
         </Windsock>
         <FuelPort>
             <name>燃油口</name>
-            <description>能放置在舱门上的输出口，与地下管道相连，提供更快的再加燃油服务。</description>
+            <description>放置在机坪上的燃油输出口，需要与地下管道相连，可以提供更快的加油服务。</description>
         </FuelPort>
         <AircraftGateSmall>
             <name>机舱门(S)</name>
@@ -159,7 +159,7 @@
         </ApparelStand>
         <ATCTower>
             <name>ATC塔</name>
-            <description>让您每天能安排10个以上航班。</description>
+            <description>让您每天能安排10个以上的航班。</description>
         </ATCTower>
         <ATM>
             <name>ATM</name>
@@ -167,11 +167,11 @@
         </ATM>
         <BagScanner>
             <name>行李扫描仪</name>
-            <description>您的安检人员使用这个X光机器，扫描乘客的随身行李物品，发现禁品和其他安全威胁。</description>
+            <description>安检人员使用这个X光机器来扫描乘客的随身行李物品，发现违禁品和其他安全威胁。</description>
         </BagScanner>
         <BaggageCarousel>
             <name>行李传送带</name>
-            <description>连接到地下输送系统，提供自动行李解决方案。</description>
+            <description>连接到地下输送系统，开启自动化的行李处理系统。</description>
         </BaggageCarousel>
         <Bar-Large>
             <name>吧台 - 大</name>
@@ -211,7 +211,7 @@
         </BenchC-3Seat>
         <BodyScanner>
             <name>身体扫描仪</name>
-            <description>与标准的金属探测器相比更先进。</description>
+            <description>与一般的金属探测器相比更先进。</description>
         </BodyScanner>
         <CafeChair>
             <name>咖啡厅椅</name>
@@ -231,7 +231,7 @@
         </CafeTableB>
         <CashRegister>
             <name>现金收银机</name>
-            <description>用来收订单，在咖啡厅里产生零售（食物）收入。</description>
+            <description>用来接受点单，在咖啡厅里产生零售（食物）收入。</description>
         </CashRegister>
         <ChairB>
             <name>椅子 B</name>
@@ -243,7 +243,7 @@
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>咖啡机</name>
-            <description>把咖啡加入到餐厅。</description>
+            <description>把咖啡加入到餐厅菜单中。</description>
         </CoffeeMaker>
         <CoffeeTableA>
             <name>咖啡桌 A</name>
@@ -379,10 +379,10 @@
         </FountainDisplayB>
         <GarbageBin>
             <name>垃圾桶</name>
-            <description>乘客（有时）会把垃圾倒在这里。 清洁工会定时倒垃圾桶。  大方地放它们，没人喜欢肮脏的机场。</description>
+            <description>乘客（有时）会把垃圾倒在这里。 清洁工会定时倒垃圾桶。  不要担心把他们摆出来，毕竟没人喜欢肮脏的机场。</description>
         </GarbageBin>
         <GateAgentDesk>
-            <name>登机口工作人员台</name>
+            <name>登机口工作台</name>
             <description>让乘客和员工协调机场内飞机的登机和下机。 每个登机口都需要一个。</description>
         </GateAgentDesk>
         <HealthFoodKiosk>
@@ -394,7 +394,7 @@
             <description>非常精致的修饰。 看上去几乎像棵圣诞树，但一整年都很适宜。 乘客通常很欣赏这种东西。</description>
         </HolidayTree>
         <IDCheckStand>
-            <name>ID检查台</name>
+            <name>证件检查台</name>
             <description>在安检区内，这是乘客安检流程的第一步。</description>
         </IDCheckStand>
         <KitchenSink>
@@ -403,23 +403,23 @@
         </KitchenSink>
         <KitchenStorage>
             <name>厨房储存室</name>
-            <description>把薯片和甜甜圈加到厨房。</description>
+            <description>把薯片和甜甜圈加到餐厅菜单中。</description>
         </KitchenStorage>
         <LargeHangar>
             <name>大机库</name>
-            <description>大型机库，最多有5个飞机位置。</description>
+            <description>大型机库，最多可以容纳5台服务车辆。</description>
         </LargeHangar>
         <LargeSlidingDoor>
             <name>大滑门</name>
             <description>商业级自动玻璃滑门。 足够大，能让多人同时通过。</description>
         </LargeSlidingDoor>
         <LRTPlatform>
-            <name>LRT 平台</name>
-            <description>能有轻轨服务通往您的机场，提供地铁的终点站。</description>
+            <name>轻轨站台</name>
+            <description>为列车提供一个站台，机场才能使用轻轨运输服务</description>
         </LRTPlatform>
         <MediumHangar>
             <name>中等机库</name>
-            <description>中型机库，最多有3个飞机位置。</description>
+            <description>中型机库，最多可以容纳3台服务车辆。</description>
         </MediumHangar>
         <MetalDetector>
             <name>金属探测器</name>
@@ -459,11 +459,11 @@
         </PAAmplifierHD>
         <PASpeaker>
             <name>PA 音响</name>
-            <description>公共广播系统提供公告、登机通知和最后一刻的信息。 有助于避免错过航班，尽管也可能有点烦扰乘客！   广播‘声锥’。</description>
+            <description>公共广播系统提供公告、登机通知和最后一刻的信息。 有助于避免错过航班，尽管也可能有点烦扰乘客！ 广播‘声锥’。</description>
         </PASpeaker>
         <PASpeaker2-Way>
             <name>PA 音响双向</name>
-            <description>公共广播系统提供公告、登机通知和最后一刻的信息。  有助于避免错过航班，尽管也可能有点烦扰乘客！ 这是双向音响，以相反方向广播两个“声锥”。</description>
+            <description>公共广播系统提供公告、登机通知和最后一刻的信息。 有助于避免错过航班，尽管也可能有点烦扰乘客！ 这是双向音响，可以朝相反的两个方向广播“声锥”。</description>
         </PASpeaker2-Way>
         <PhoneChargerStation>
             <name>手机充电站</name>
@@ -493,11 +493,11 @@
         </Plant3>
         <PrepCart>
             <name>预备车</name>
-            <description>食物工人把这个当做工作空间，准备和满足食物订单。 有足够的空间，一次满足1个订单。</description>
+            <description>餐厅员工的工作空间，用于准备食物。 有足够的空间，一次满足1个订单。</description>
         </PrepCart>
         <Refrigerator>
             <name>冰箱</name>
-            <description>把披萨加入到厨房供应的食物中。</description>
+            <description>把披萨加入到餐厅的菜单中。</description>
         </Refrigerator>
         <RemoteBagScanner>
             <name>远程行李扫描仪</name>
@@ -505,11 +505,11 @@
         </RemoteBagScanner>
         <RemoteSecurityStation>
             <name>远程安检站</name>
-            <description>用于监控一个以上的指定远程行李扫描仪设备。</description>
+            <description>用于监控指定的远程行李扫描仪设备。</description>
         </RemoteSecurityStation>
         <SecurityExit>
             <name>安检出口</name>
-            <description>安全区域边界，让乘客转移到非安全区域。</description>
+            <description>安全区域的边界，乘客可以经此离开安检禁区。</description>
         </SecurityExit>
         <Sink>
             <name>洗手池</name>
@@ -517,35 +517,35 @@
         </Sink>
         <SlidingDoor>
             <name>滑动门</name>
-            <description>小型商业级但经济合算的自动滑动玻璃门。  不太大，不太小。</description>
+            <description>小但便宜的自动玻璃门。  不太大，不太小。</description>
         </SlidingDoor>
         <SmallHangar>
             <name>小机库</name>
-            <description>小型机库，只有1个飞机位置。</description>
+            <description>小型机库，只能容纳1台服务车辆。</description>
         </SmallHangar>
         <SnackKiosk>
-            <name>零食亭</name>
+            <name>零食铺</name>
             <description />
         </SnackKiosk>
         <StaffDoor>
             <name>员工门</name>
-            <description>能在墙上放门，用于分割机场内不同的相邻房间或区域。  只有机场员工才能用这扇门！</description>
+            <description>用于分割机场内不同的房间或区域。  只有机场员工才能用这扇门！</description>
         </StaffDoor>
         <StorageShelf>
             <name>储存架</name>
-            <description>通过增加供应区的容量，有助于供应管理。</description>
+            <description>可以增加供应区的容量，实现更好的供应品管理。</description>
         </StorageShelf>
         <SushiKiosk>
-            <name>寿司亭</name>
+            <name>寿司铺</name>
             <description />
         </SushiKiosk>
         <TicketingDesk>
-            <name>票务台</name>
-            <description>乘客来这里取得登机牌并托运行李。  您的员工在这些柜台工作，协助乘客的值机手续。</description>
+            <name>值机柜台</name>
+            <description>乘客来这里办理登机牌并托运行李。  您的员工在这些柜台工作，协助乘客办理值机手续。</description>
         </TicketingDesk>
         <TicketingKiosk>
-            <name>票务亭</name>
-            <description>没有托运行李的乘客能用自动票务亭打印登机牌，无需工作人员的协助。</description>
+            <name>自助值机终端</name>
+            <description>没有托运行李的乘客可以自动票务亭打印登机牌，无需工作人员的协助。</description>
         </TicketingKiosk>
         <ToiletStall>
             <name>厕所间</name>
@@ -553,7 +553,7 @@
         </ToiletStall>
         <ToolboxLocker>
             <name>工具箱柜</name>
-            <description>包括3个标准工具箱。</description>
+            <description>可以放置3个标准工具箱。</description>
         </ToolboxLocker>
         <Tree1>
             <name>树1</name>
@@ -572,35 +572,35 @@
             <description>满足男性乘客的膀胱需求。</description>
         </Urinal>
         <BaggageDepot>
-            <name>行李保管处</name>
-            <description>停机坪员工使用的室外的终点，连接到地下传送带系统。</description>
-            <k1>{0} 终点只能对外（到附有传送带的枢纽）</k1>
-            <k2>{0} 终点只能对内（从附有票务台的枢纽）</k2>
-            <k3>只限终点。行李不能从粉红色传到蓝色部分。</k3>
+            <name>行李装卸台</name>
+            <description>停机坪员工使用的室外的行李设施，连接到地下传送带系统。</description>
+            <k1>{0} 终点只能对外（往行李转盘方向）</k1>
+            <k2>{0} 终点只能对内（从值机柜台方向）</k2>
+            <k3>只限终点。行李不会从粉红色传到蓝色部分。</k3>
         </BaggageDepot>
         <BaggageHub>
-            <name>行李枢纽</name>
-            <description>把进来的行李分类并向下流导引到其他终点，包括其他枢纽。4个港。</description>
+            <name>行李分拣机</name>
+            <description>把输入的行李分类并输送到其他设施，包括其他的行李分拣机。4个接口。</description>
         </BaggageHub>
         <BaggageHub-Specialty6-2>
-            <name>行李枢纽 - 专门 6-2</name>
-            <description>把进来的行李分类并向下流导引到其他终点，包括其他枢纽。8个港。</description>
+            <name>行李分拣机 - 专门 6-2</name>
+            <description>把输入的行李分类并输送到其他设施，包括其他的行李分拣机。8个接口。</description>
         </BaggageHub-Specialty6-2>
         <BaggageHubLarge>
-            <name>行李枢纽大</name>
-            <description>把进来的行李分类并向下流导引到其他终点，包括其他枢纽。8个港。</description>
+            <name>大型行李分拣机</name>
+            <description>把输入的行李分类并输送到其他设施，包括其他的行李分拣机。8个接口。</description>
         </BaggageHubLarge>
         <FuelDepot>
             <name>燃料库</name>
-            <description>接收飞机燃油运输，把并它分配到与管道相连的仓库。</description>
+            <description>接收从外界运来的飞机燃油，把并它转运到与管道相连的存储设施中。</description>
         </FuelDepot>
         <FuelTank>
             <name>燃油箱</name>
-            <description>户外飞机燃油储存库，容量为344,000升。用于支持再加燃油。</description>
+            <description>户外飞机燃油储存库，容量为344,000升。</description>
         </FuelTank>
         <LargeFuelTank>
             <name>大燃油箱</name>
-            <description>大型户外飞机燃油储存库，容量为1,000,000升。用于支持再加燃油。</description>
+            <description>大型户外飞机燃油储存库，容量为1,000,000升。</description>
         </LargeFuelTank>
         <DirtyFloor>
             <name>肮脏的地板</name>
@@ -610,31 +610,31 @@
         </TrashBag>
         <StairsUp>
             <name>向上楼梯</name>
-            <description>可以让您的乘客往返于楼上的楼梯。</description>
+            <description>连接本层与上面一层的楼梯。</description>
         </StairsUp>
         <StairsDown>
             <name>向下楼梯</name>
-            <description>可以让您的乘客往返于楼下的楼梯。</description>
+            <description>连接本层与下面一层的楼梯。</description>
         </StairsDown>
         <EscalatorUp>
             <name>向上自动扶梯</name>
-            <description>可以让您的乘客直接移动到楼上的自动扶梯。 单向运行。</description>
+            <description>可以让您的乘客前往楼上的自动扶梯。 单向运行。</description>
         </EscalatorUp>
         <EscalatorDown>
             <name>向下自动扶梯</name>
-            <description>可以让您的乘客直接移动到楼下的自动扶梯。 单向运行。</description>
+            <description>可以让您的乘客前往楼下的自动扶梯。 单向运行。</description>
         </EscalatorDown>
         <ConveyorDown>
-            <name>输送机下降过渡</name>
-            <description>输送机网络对象允许输送机部分从放置在其上的地板过渡到位于正下方的地板。 允许在设计行李输送机网络时对空间进行战略性使用。</description>
+            <name>下降传送带</name>
+            <description>这个传送带可以将放置层的行李降下到正下方一层，将行李处理网络立体化。</description>
         </ConveyorDown>
         <ConveyorUp>
-            <name>输送机过渡</name>
-            <description>输送机网络对象允许输送机部分从其所放置的地板过渡到位于正下方的地板上。 允许在设计行李输送机网络时对空间进行战略性使用。</description>
+            <name>上升传送带</name>
+            <description>这个传送带可以将放置层的行李提升到正上方一层，将行李处理网络立体化。</description>
         </ConveyorUp>
         <SmallGateStairs>
             <name>小门楼梯</name>
-            <description>将楼梯添加到您的小型飞机大门，并使其仅可从二楼进入。</description>
+            <description>为小型机坪增设一座楼梯，完工后仅可从二楼出入。</description>
         </SmallGateStairs>
         <MovingWalkway>
             <name>自动人行步道</name>
